@@ -16,6 +16,10 @@ variable "azs" {
   description = "A list of Availability zones in the region"
   default     = []
 }
+variable "aws_availability_zones" {
+  description = "A list of Availability zones in the region"
+  default     = []
+}
 
 variable "enable_dns_hostnames" {
   description = "should be true if you want to use private DNS within the VPC"
