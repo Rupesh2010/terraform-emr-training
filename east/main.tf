@@ -64,3 +64,7 @@ module route53 {
   zone_name = "training.dimajix-aws.net"
 }
 
+variable "aws_availability_zones" {
+  description = "A list of Availability zones in the region"
+  default     = []
+}
