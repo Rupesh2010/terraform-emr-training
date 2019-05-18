@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_key_pair" "deployer" {
-  key_name = "deployer-key" 
+  key_name = "rupesh_vir" 
   public_key = "ssh-rsa SSH_PUBLIC_KEY"
 }
 
