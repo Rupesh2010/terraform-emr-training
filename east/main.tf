@@ -19,7 +19,7 @@ module "vpc" {
   enable_s3_endpoint = "true"
   enable_dns_hostnames = "true"
   enable_dns_support = "true"
-  azs      = "${var.aws_availability_zones}"
+  azs      = "us-east=1a"
 }
 
 
