@@ -1,11 +1,11 @@
 variable "aws_region" {
   description = "AWS region to launch servers."
-  default     = "eu-central-1"
+  default     = "us-east-1"
 }
 
 variable "aws_availability_zone" {
   description = "AWS region to launch servers."
-  default     = "eu-central-1a"
+  default     = "us-east-1a"
 }
 
 provider "aws" {
