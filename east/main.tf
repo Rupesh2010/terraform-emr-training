@@ -61,7 +61,7 @@ module route53 {
   targets = ["${module.emr.master_public_dns}"]
 
   # Configuration: Set the Route53 zone to use
-  zone_name = "training.dimajix-aws.net"
+  zone_name = "cloudkeet.com"
 }
 
 variable "aws_availability_zones" {
