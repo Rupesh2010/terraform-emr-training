@@ -45,7 +45,7 @@ module "emr" {
 
   vpc_id = "${module.vpc.vpc_id}"
   subnet_ids = ["${module.vpc.public_subnets}"]
-  ssh_key_ids = ["rupesh_vir"]
+  ssh_key_ids = ["${aws_key_pair.deployer.id}"]
   
   # Configuration: Set the user name for basic auth
   proxy_user = "dimajix"
